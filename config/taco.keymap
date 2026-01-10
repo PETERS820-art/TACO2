@@ -19,17 +19,17 @@
 // | BT_CLR  |  BSPC  |
 // | BT1 |  softoff |
                         bindings = <
-   &kp LSHFT  &kp S &kp BSPC &mo 1
+   &kp LSHFT  &kp S &kp BSPC &to 1
    &kp LCTRL  &kp X &kp C &kp V
                         >;
                 };
-                lower_layer { //layer 2
+                lower_layer { //layer 1
                         display-name = "Control";
 // -------------------------------------------------------------------------------------
 // | BT_CLR  |  BSPC  |
 // | BT1 |  softoff |
                         bindings = <
-    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &mo 0
+    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &to 0
     &kp NUMBER_1   &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4
                 };
         };
